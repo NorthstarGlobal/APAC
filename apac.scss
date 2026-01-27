@@ -697,10 +697,8 @@ body.wcprop-2 #wrapper-main{
       padding: 1%;
       border-radius: 15px;
       .sheet-title{
-        h1,h2,h3,h4,h5,h6{
-          &:before,&:after{
-            display: none;
-          }
+        &:before,&:after{
+          display: none;
         }
       }
     }

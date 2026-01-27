@@ -443,19 +443,9 @@ body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet {
   padding: 1%;
   border-radius: 15px;
 }
-body.wcprop-2 #wrapper-main #portlet_new-password .sheet .sheet-title h1:before, body.wcprop-2 #wrapper-main #portlet_new-password .sheet .sheet-title h1:after, body.wcprop-2 #wrapper-main #portlet_new-password .sheet .sheet-title h2:before, body.wcprop-2 #wrapper-main #portlet_new-password .sheet .sheet-title h2:after, body.wcprop-2 #wrapper-main #portlet_new-password .sheet .sheet-title h3:before, body.wcprop-2 #wrapper-main #portlet_new-password .sheet .sheet-title h3:after, body.wcprop-2 #wrapper-main #portlet_new-password .sheet .sheet-title h4:before, body.wcprop-2 #wrapper-main #portlet_new-password .sheet .sheet-title h4:after, body.wcprop-2 #wrapper-main #portlet_new-password .sheet .sheet-title h5:before, body.wcprop-2 #wrapper-main #portlet_new-password .sheet .sheet-title h5:after, body.wcprop-2 #wrapper-main #portlet_new-password .sheet .sheet-title h6:before, body.wcprop-2 #wrapper-main #portlet_new-password .sheet .sheet-title h6:after,
-body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet .sheet-title h1:before,
-body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet .sheet-title h1:after,
-body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet .sheet-title h2:before,
-body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet .sheet-title h2:after,
-body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet .sheet-title h3:before,
-body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet .sheet-title h3:after,
-body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet .sheet-title h4:before,
-body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet .sheet-title h4:after,
-body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet .sheet-title h5:before,
-body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet .sheet-title h5:after,
-body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet .sheet-title h6:before,
-body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet .sheet-title h6:after {
+body.wcprop-2 #wrapper-main #portlet_new-password .sheet .sheet-title:before, body.wcprop-2 #wrapper-main #portlet_new-password .sheet .sheet-title:after,
+body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet .sheet-title:before,
+body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet .sheet-title:after {
   display: none;
 }
 
