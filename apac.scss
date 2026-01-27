@@ -527,7 +527,7 @@ body.wcprop-2 .body-inner-wrap #wrapper {
 
   &.textured-nav-parent.active {
     &:before {
-      // content: "";
+      content: "";
       position: absolute;
       bottom: 0;
       left: 0;
