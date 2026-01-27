@@ -428,20 +428,35 @@ body.wcprop-2 #ui-area .form-designer-portlet section.portlet .portlet-content-e
 
 /*Base Fixes Ends*/
 /*Default pages*/
-body.wcprop-2 #portlet_new-password,
-body.wcprop-2 #portlet_password-reminder {
+body.wcprop-2 #wrapper-main #portlet_new-password,
+body.wcprop-2 #wrapper-main #portlet_password-reminder {
   margin-top: 0 !important;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: var(--login-bg);
+  background: var(--primary-color);
 }
-body.wcprop-2 #portlet_new-password .sheet,
-body.wcprop-2 #portlet_password-reminder .sheet {
+body.wcprop-2 #wrapper-main #portlet_new-password .sheet,
+body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   padding: 1%;
   border-radius: 15px;
+}
+body.wcprop-2 #wrapper-main #portlet_new-password .sheet .sheet-title h1:before, body.wcprop-2 #wrapper-main #portlet_new-password .sheet .sheet-title h1:after, body.wcprop-2 #wrapper-main #portlet_new-password .sheet .sheet-title h2:before, body.wcprop-2 #wrapper-main #portlet_new-password .sheet .sheet-title h2:after, body.wcprop-2 #wrapper-main #portlet_new-password .sheet .sheet-title h3:before, body.wcprop-2 #wrapper-main #portlet_new-password .sheet .sheet-title h3:after, body.wcprop-2 #wrapper-main #portlet_new-password .sheet .sheet-title h4:before, body.wcprop-2 #wrapper-main #portlet_new-password .sheet .sheet-title h4:after, body.wcprop-2 #wrapper-main #portlet_new-password .sheet .sheet-title h5:before, body.wcprop-2 #wrapper-main #portlet_new-password .sheet .sheet-title h5:after, body.wcprop-2 #wrapper-main #portlet_new-password .sheet .sheet-title h6:before, body.wcprop-2 #wrapper-main #portlet_new-password .sheet .sheet-title h6:after,
+body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet .sheet-title h1:before,
+body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet .sheet-title h1:after,
+body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet .sheet-title h2:before,
+body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet .sheet-title h2:after,
+body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet .sheet-title h3:before,
+body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet .sheet-title h3:after,
+body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet .sheet-title h4:before,
+body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet .sheet-title h4:after,
+body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet .sheet-title h5:before,
+body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet .sheet-title h5:after,
+body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet .sheet-title h6:before,
+body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet .sheet-title h6:after {
+  display: none;
 }
 
 /*Default Pages End*/

@@ -681,7 +681,7 @@ body.wcprop-2 {
 
 /*Base Fixes Ends*/
 /*Default pages*/
-body.wcprop-2 {
+body.wcprop-2 #wrapper-main{
 
   #portlet_new-password,
   #portlet_password-reminder {
@@ -690,12 +690,19 @@ body.wcprop-2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: var(--login-bg);
+    background: var(--primary-color);
 
     .sheet {
       box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
       padding: 1%;
       border-radius: 15px;
+      .sheet-title{
+        h1,h2,h3,h4,h5,h6{
+          &:before,&:after{
+            display: none;
+          }
+        }
+      }
     }
   }
 }
