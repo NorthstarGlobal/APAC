@@ -1,0 +1,12 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^cd \"c:\\\\Users\\\\Muhammad Ahmed\\.SIBISOFTNS\\\\Desktop\\\\APAC\" ; git push$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^cd \"c:\\\\Users\\\\Muhammad Ahmed\\.SIBISOFTNS\\\\Desktop\\\\APAC\" ; git add apac\\.scss$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

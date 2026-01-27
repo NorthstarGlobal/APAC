@@ -1,11 +1,12 @@
-@import "basetheme_fixes";
-/*Fixes of issues found in basetheme*/
-@import "gsap";
+@use "variables" as *;
+@use "basetheme_fixes";
+@use "portlet_ux";
 
 :root {
   --page-scroll: 0; // updated by JS
 }
-.btn{
+
+.btn {
   &.link-hover {
     position: relative;
 
@@ -37,7 +38,7 @@
     }
 
     &.no-border {
-      > a {
+      >a {
         border-color: transparent !important;
       }
     }
@@ -99,6 +100,7 @@
           margin-left: 10px;
 
           .arrow {
+
             &:before,
             &:after {
               border-color: var(--secondary-color) !important;
@@ -381,8 +383,8 @@
   }
 
   &:hover {
-    &:after {
-    }
+    &:after {}
+
     &:before {
       right: -17px;
       background: #f2f2f2;
@@ -419,18 +421,22 @@
     }
   }
 }
+
 body.wcprop-2 .body-inner-wrap #wrapper {
   h1 {
     font-size: calc(var(--wc-fs-heading1) * 1px) !important;
     font-family: var(--wc-heading-font-family1);
     color: var(--heading-color1);
     font-weight: normal;
+
     @media #{$mq-tablet-lg} {
       font-size: min(50px, calc(var(--wc-fs-heading1) * 1px)) !important;
     }
+
     @media #{$mq-tablet-md} {
       font-size: min(38px, calc(var(--wc-fs-heading1) * 1px)) !important;
     }
+
     @media #{$mq-tablet-sm} {
       font-size: min(36px, var(--wc-fs-heading1) * 1px) !important;
     }
@@ -441,6 +447,7 @@ body.wcprop-2 .body-inner-wrap #wrapper {
     font-family: var(--wc-heading-font-family1);
     color: var(--heading-color2);
     font-weight: normal;
+
     @media #{$mq-tablet-lg} {
       font-size: min(55px, calc(var(--wc-fs-heading2) * 1px)) !important;
     }
@@ -453,14 +460,17 @@ body.wcprop-2 .body-inner-wrap #wrapper {
       font-size: min(32px, calc(var(--wc-fs-heading2) * 1px)) !important;
     }
   }
+
   h3 {
     font-size: calc(var(--wc-fs-heading3) * 1px) !important;
     font-family: var(--wc-heading-font-family1);
     color: var(--heading-color3);
     font-weight: normal;
-    @media #{$mq-laptop}{
+
+    @media #{$mq-laptop} {
       font-size: min(32px, calc(var(--wc-fs-heading3) * 1px)) !important;
     }
+
     @media #{$mq-tablet-lg} {
       font-size: min(30px, calc(var(--wc-fs-heading3) * 1px)) !important;
     }
@@ -473,11 +483,14 @@ body.wcprop-2 .body-inner-wrap #wrapper {
       font-size: min(28px, calc(var(--wc-fs-heading3) * 1px)) !important;
     }
   }
+
   .html-generator-portlet,
   .webc-container,
-  footer{
-    p,a{
-      @media #{$mq-tablet-sm}{
+  footer {
+
+    p,
+    a {
+      @media #{$mq-tablet-sm} {
         font-size: calc(var(--wc-mobile-font-size) * 1px) !important;
       }
     }
@@ -491,159 +504,186 @@ body.wcprop-2 .body-inner-wrap #wrapper {
 
 #textured-cssmenu li {
   --texture-nav-radius: 0;
-    %main-nav {
-        color: var(--menu-font-color) !important;
-        background-color: var(--menu-bg-color);
+
+  %main-nav {
+    color: var(--menu-font-color) !important;
+    background-color: var(--menu-bg-color);
+  }
+
+  %subnavhover {
+    background-color: var(--submenu-hover-bg-color) !important;
+    color: var(--submenu-hover-font-color) !important;
+
+    &:after {
+      color: var(--submenu-hover-font-color);
     }
-    %subnavhover {
-        background-color: var(--submenu-hover-bg-color) !important;
-        color: var(--submenu-hover-font-color) !important;
-        &:after {
-            color: var(--submenu-hover-font-color);
-        }
+  }
+
+  %subnav {
+    color: var(--submenu-font-color) !important;
+    background-color: var(--submenu-bg-color) !important;
+  }
+
+  &.textured-nav-parent.active {
+    &:before {
+      // content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background-color: var(--submenu-font-color);
+      transition: transform 0.3s ease;
+      transform: scaleX(1);
     }
-    %subnav {
-        color: var(--submenu-font-color) !important;
-        background-color: var(--submenu-bg-color) !important;
+  }
+
+  &.active {
+    >li {
+      @extend %main-nav;
+
+      body.private-page & {
+        color: var(--header-bg-color) !important;
+      }
     }
-    &.textured-nav-parent.active {
-        &:before {
-            // content: "";
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 2px;
-            background-color: var(--submenu-font-color);
-            transition: transform 0.3s ease;
-            transform: scaleX(1);
-        }
-    }
-    &.active {
-        > li {
-            @extend %main-nav;
-            body.private-page & {
-                color: var(--header-bg-color) !important;
-            }
-        }
-        ul {
-            li {
-                &:hover,
-                &:has(.active),
-                &:hover,
-                &:has(.active),
-                &:has(.active) > a > span:after {
-                    @extend %subnavhover;
-                }
-                &:has(.active) > a {
-                    color: var(--menu-active-font-color) !important;
-                }
-            }
-        }
-    }
+
     ul {
-        border-radius: var(--texture-nav-radius);
+      li {
 
-        > li {
-            border-bottom: 1px solid var(--submenu-separator-color);
-            &:last-of-type {
-                border: 0;
-            }
-            > a {
-                border: 0;
-            }
-            &:first-of-type {
-                border-top-left-radius: var(--texture-nav-radius);
-                border-top-right-radius: var(--texture-nav-radius);
-                > a,
-                > a > span,
-                &:hover,
-                &:hover > a,
-                &:hover > a > span,
-                > a,
-                > a > span,
-                > a:has(.active) {
-                    border-top-left-radius: var(--texture-nav-radius);
-                    border-top-right-radius: var(--texture-nav-radius);
-                }
-            }
-            &:last-of-type {
-                border-bottom-right-radius: var(--texture-nav-radius);
-                border-bottom-left-radius: var(--texture-nav-radius);
-                &:hover,
-                &:hover > a,
-                &:hover > a > span,
-                > a,
-                > a > span,
-                > a:has(.active) > span {
-                    border-bottom-right-radius: var(--texture-nav-radius);
-                    border-bottom-left-radius: var(--texture-nav-radius);
-                }
-            }
-
-            &:only-child {
-                border-radius: var(--texture-nav-radius) !important;
-                &:hover,
-                &:hover > a,
-                &:hover > a > span {
-                    border-radius: var(--texture-nav-radius) !important;
-                }
-            }
+        &:hover,
+        &:has(.active),
+        &:hover,
+        &:has(.active),
+        &:has(.active)>a>span:after {
+          @extend %subnavhover;
         }
+
+        &:has(.active)>a {
+          color: var(--menu-active-font-color) !important;
+        }
+      }
     }
+  }
+
+  ul {
+    border-radius: var(--texture-nav-radius);
+
+    >li {
+      border-bottom: 1px solid var(--submenu-separator-color);
+
+      &:last-of-type {
+        border: 0;
+      }
+
+      >a {
+        border: 0;
+      }
+
+      &:first-of-type {
+        border-top-left-radius: var(--texture-nav-radius);
+        border-top-right-radius: var(--texture-nav-radius);
+
+        >a,
+        >a>span,
+        &:hover,
+        &:hover>a,
+        &:hover>a>span,
+        >a,
+        >a>span,
+        >a:has(.active) {
+          border-top-left-radius: var(--texture-nav-radius);
+          border-top-right-radius: var(--texture-nav-radius);
+        }
+      }
+
+      &:last-of-type {
+        border-bottom-right-radius: var(--texture-nav-radius);
+        border-bottom-left-radius: var(--texture-nav-radius);
+
+        &:hover,
+        &:hover>a,
+        &:hover>a>span,
+        >a,
+        >a>span,
+        >a:has(.active)>span {
+          border-bottom-right-radius: var(--texture-nav-radius);
+          border-bottom-left-radius: var(--texture-nav-radius);
+        }
+      }
+
+      &:only-child {
+        border-radius: var(--texture-nav-radius) !important;
+
+        &:hover,
+        &:hover>a,
+        &:hover>a>span {
+          border-radius: var(--texture-nav-radius) !important;
+        }
+      }
+    }
+  }
 }
 
 
 /*Base Fixes*/
 body.wcprop-2 {
-    &.site {
-        .portlet-column-content.empty {
-            display: none;
-        }
-        &.has-control-menu {
-            .portlet-column-content.empty {
-                display: block;
-            }
-        }
+  &.site {
+    .portlet-column-content.empty {
+      display: none;
     }
-    #ui-area {
-        .form-designer-portlet {
-            section.portlet .portlet-content-editable form .ui-grid-col-2.btn-responsive {
-                display: inline-flex;
-                align-items: center;
-                a {
-                    margin: 0;
-                }
-            }
-        }
-        section.portlet {
-            h2 {
-                @media #{$mq-mobile-sm} {
-                    font-size: calc((var(--wc-fs-heading2) - 2) * 1px);
-                }
-            }
-            h3 {
-                @media #{$mq-mobile-sm} {
-                    font-size: calc((var(--wc-fs-heading3) - 1) * 1px);
-                }
-            }
-            h4 {
-                @media #{$mq-mobile-sm} {
-                    font-size: calc((var(--wc-fs-heading4) - 0) * 1px);
-                }
-            }
-            h5 {
-                @media #{$mq-mobile-sm} {
-                    font-size: calc((var(--wc-fs-heading5) - 2) * 1px);
-                }
-            }
-        }
+
+    &.has-control-menu {
+      .portlet-column-content.empty {
+        display: block;
+      }
     }
+  }
+
+  #ui-area {
+    .form-designer-portlet {
+      section.portlet .portlet-content-editable form .ui-grid-col-2.btn-responsive {
+        display: inline-flex;
+        align-items: center;
+
+        a {
+          margin: 0;
+        }
+      }
+    }
+
+    section.portlet {
+      h2 {
+        @media #{$mq-mobile-sm} {
+          font-size: calc((var(--wc-fs-heading2) - 2) * 1px);
+        }
+      }
+
+      h3 {
+        @media #{$mq-mobile-sm} {
+          font-size: calc((var(--wc-fs-heading3) - 1) * 1px);
+        }
+      }
+
+      h4 {
+        @media #{$mq-mobile-sm} {
+          font-size: calc((var(--wc-fs-heading4) - 0) * 1px);
+        }
+      }
+
+      h5 {
+        @media #{$mq-mobile-sm} {
+          font-size: calc((var(--wc-fs-heading5) - 2) * 1px);
+        }
+      }
+    }
+  }
 }
+
 /*Base Fixes Ends*/
 /*Default pages*/
 body.wcprop-2 {
-  #portlet_new-password, 
+
+  #portlet_new-password,
   #portlet_password-reminder {
     margin-top: 0 !important;
     height: 100vh;
@@ -651,11 +691,13 @@ body.wcprop-2 {
     flex-direction: column;
     justify-content: center;
     background: url("../images/club-images/login-bg-1.jpg");
-    .sheet{
+
+    .sheet {
       box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
       padding: 1%;
       border-radius: 15px;
     }
   }
 }
+
 /*Default Pages End*/
