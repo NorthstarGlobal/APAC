@@ -1,6 +1,7 @@
-@use "variables" as *;
-@use "basetheme_fixes";
-@use "portlet_ux";
+// Import all SCSS files using @use syntax
+@use 'variables' as *;
+@use 'basetheme_fixes' as *;
+@use 'portlet_ux' as *;
 
 :root {
   --page-scroll: 0; // updated by JS
@@ -681,28 +682,33 @@ body.wcprop-2 {
 
 /*Base Fixes Ends*/
 /*Default pages*/
-body.wcprop-2 #wrapper-main{
+body.wcprop-2 {
+  #wrapper:has(section#portlet_Two\ Factor\ Authentication){
+    top: 0;
+  }
+  #wrapper-main{
+    #portlet_new-password,
+    #portlet_password-reminder,
+    section#portlet_Two\ Factor\ Authentication {
+      margin: 0 !important;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background: var(--primary-color);
 
-  #portlet_new-password,
-  #portlet_password-reminder {
-    margin-top: 0 !important;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: var(--primary-color);
-
-    .sheet {
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-      padding: 1%;
-      border-radius: 15px;
-      @media #{$mq-tablet-sm}{
-        margin: 3%;
-        padding: 3%;
-      }
-      .sheet-title{
-        &:before,&:after{
-          display: none;
+      .sheet {
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        padding: 1%;
+        border-radius: 15px;
+        @media #{$mq-tablet-sm}{
+          margin: 3%;
+          padding: 3%;
+        }
+        .sheet-title{
+          &:before,&:after{
+            display: none;
+          }
         }
       }
     }

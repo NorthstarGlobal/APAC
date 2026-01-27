@@ -1,4 +1,8 @@
 /* Media Query */
+body.wcprop-2 .cookie-consent-wrapper {
+  display: none;
+}
+
 :root {
   --page-scroll: 0;
 }
@@ -428,9 +432,13 @@ body.wcprop-2 #ui-area .form-designer-portlet section.portlet .portlet-content-e
 
 /*Base Fixes Ends*/
 /*Default pages*/
+body.wcprop-2 #wrapper:has(section#portlet_Two\ Factor\ Authentication) {
+  top: 0;
+}
 body.wcprop-2 #wrapper-main #portlet_new-password,
-body.wcprop-2 #wrapper-main #portlet_password-reminder {
-  margin-top: 0 !important;
+body.wcprop-2 #wrapper-main #portlet_password-reminder,
+body.wcprop-2 #wrapper-main section#portlet_Two\ Factor\ Authentication {
+  margin: 0 !important;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -438,21 +446,25 @@ body.wcprop-2 #wrapper-main #portlet_password-reminder {
   background: var(--primary-color);
 }
 body.wcprop-2 #wrapper-main #portlet_new-password .sheet,
-body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet {
+body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet,
+body.wcprop-2 #wrapper-main section#portlet_Two\ Factor\ Authentication .sheet {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   padding: 1%;
   border-radius: 15px;
 }
 @media (max-width: 767.98px) {
   body.wcprop-2 #wrapper-main #portlet_new-password .sheet,
-  body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet {
+  body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet,
+  body.wcprop-2 #wrapper-main section#portlet_Two\ Factor\ Authentication .sheet {
     margin: 3%;
     padding: 3%;
   }
 }
 body.wcprop-2 #wrapper-main #portlet_new-password .sheet .sheet-title:before, body.wcprop-2 #wrapper-main #portlet_new-password .sheet .sheet-title:after,
 body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet .sheet-title:before,
-body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet .sheet-title:after {
+body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet .sheet-title:after,
+body.wcprop-2 #wrapper-main section#portlet_Two\ Factor\ Authentication .sheet .sheet-title:before,
+body.wcprop-2 #wrapper-main section#portlet_Two\ Factor\ Authentication .sheet .sheet-title:after {
   display: none;
 }
 
