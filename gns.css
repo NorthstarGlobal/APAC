@@ -338,12 +338,13 @@ body.wcprop-2 .body-inner-wrap #wrapper h3 {
   color: var(--submenu-hover-font-color);
 }
 #textured-cssmenu li.textured-nav-parent.active:before {
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: var(--submenu-font-color);
+  background-color: transparent;
   transition: transform 0.3s ease;
   transform: scaleX(1);
 }
