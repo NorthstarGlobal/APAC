@@ -443,6 +443,13 @@ body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet {
   padding: 1%;
   border-radius: 15px;
 }
+@media (max-width: 767.98px) {
+  body.wcprop-2 #wrapper-main #portlet_new-password .sheet,
+  body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet {
+    margin: 3%;
+    padding: 3%;
+  }
+}
 body.wcprop-2 #wrapper-main #portlet_new-password .sheet .sheet-title:before, body.wcprop-2 #wrapper-main #portlet_new-password .sheet .sheet-title:after,
 body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet .sheet-title:before,
 body.wcprop-2 #wrapper-main #portlet_password-reminder .sheet .sheet-title:after {

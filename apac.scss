@@ -696,6 +696,10 @@ body.wcprop-2 #wrapper-main{
       box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
       padding: 1%;
       border-radius: 15px;
+      @media #{$mq-tablet-sm}{
+        margin: 3%;
+        padding: 3%;
+      }
       .sheet-title{
         &:before,&:after{
           display: none;
