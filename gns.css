@@ -435,7 +435,7 @@ body.wcprop-2 #portlet_password-reminder {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: url("../images/club-images/login-bg-1.jpg");
+  background: var(--login-bg);
 }
 body.wcprop-2 #portlet_new-password .sheet,
 body.wcprop-2 #portlet_password-reminder .sheet {

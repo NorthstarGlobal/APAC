@@ -690,7 +690,7 @@ body.wcprop-2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: url("../images/club-images/login-bg-1.jpg");
+    background: var(--login-bg);
 
     .sheet {
       box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
