@@ -352,6 +352,7 @@ body.private-page #textured-cssmenu li.active > li {
 }
 #textured-cssmenu li.active ul li:has(.active) > a {
   color: var(--menu-active-font-color) !important;
+  background: var(--submenu-hover-bg-color) !important;
 }
 #textured-cssmenu li ul {
   border-radius: var(--texture-nav-radius);

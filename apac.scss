@@ -561,6 +561,7 @@ body.wcprop-2 .body-inner-wrap #wrapper {
 
         &:has(.active)>a {
           color: var(--menu-active-font-color) !important;
+          background: var(--submenu-hover-bg-color) !important;
         }
       }
     }
