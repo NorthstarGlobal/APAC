@@ -3,6 +3,14 @@ body.wcprop-2 .cookie-consent-wrapper {
   display: none;
 }
 
+body.wcprop-2 .activities-portlet section.portlet form .activity-legends-dialog {
+  position: fixed;
+  top: 50% !important;
+}
+body.wcprop-2 .ui-widget-overlay {
+  display: none;
+}
+
 :root {
   --page-scroll: 0;
 }
