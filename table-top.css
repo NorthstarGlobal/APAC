@@ -33,26 +33,24 @@ body.tableTopBody.body-bg .itemsSelectionView .itemsList {
 body.tableTopBody.body-bg .tableTopPageContainer .checkDetailsView .checkDetailsCard {
     height: 90% !important;
 }
-body.tableTopBody.body-bg .checkDetailsView .checkDetailsCard .checkDetailsInner .TT_footer_btn {
+.tableTopPage .checkDetailsView .checkDetailsCard .checkDetailsInner .TT_footer_btn {
     padding: 0;
     background: transparent;
     bottom: 0;
 }
 
-body.tableTopBody.body-bg .checkDetailsView .checkDetailsCard .checkDetailsInner .pTypeBtn {
+.tableTopPage .checkDetailsView .checkDetailsCard .checkDetailsInner .pTypeBtn {
     background: transparent;
 }
-
-body.tableTopBody.body-bg .checkDetailsCard .checkDetails .checkDetailsInner {
+.tableTopPage .checkDetailsCard .checkDetails .checkDetailsInner {
     height: 100%;
     justify-content: flex-start;
 }
-
-body.tableTopBody.body-bg .checkDetailsView .checkDetailsCard .checkDetailsInner .TT_footer_btn {
+.tableTopPage .checkDetailsView .checkDetailsCard .checkDetailsInner .TT_footer_btn {
     position: relative;
 }
 
-body.tableTopBody.body-bg .checkDetailsCard .checkDetails .checkItems,
-body.tableTopBody.body-bg .checkDetailsCard .checkDetails .checkItems .scrollable-items {
+.tableTopPage .checkDetailsCard .checkDetails .checkItems,
+.tableTopPage .checkDetailsCard .checkDetails .checkItems .scrollable-items {
     max-height: max-content;
 }
