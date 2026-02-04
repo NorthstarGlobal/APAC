@@ -31,7 +31,7 @@ body.tableTopBody.body-bg .itemsSelectionView .itemsList {
 
 
 body.tableTopBody.body-bg .tableTopPageContainer .checkDetailsView .checkDetailsCard {
-    height: 90% !important;
+    height: 100vh !important;
 }
 .tableTopPage .checkDetailsView .checkDetailsCard .checkDetailsInner .TT_footer_btn {
     padding: 0;
