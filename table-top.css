@@ -1,0 +1,35 @@
+body.tableTopBody.body-bg .slideBoxContainer .slideBoxContent a.linkBtn {
+    min-height: 40px;
+    border-radius: 5px !important;
+}
+
+body.tableTopBody.body-bg .tableTopHome .tableTopPageContainer.itemsView {
+    padding-top: 50px !important;
+}
+
+body.tableTopBody.body-bg .seatItemsSideBar .imageDiv .memberDetails {
+    align-items: center;
+}
+
+body.tableTopBody.body-bg .seatItemsSideBar .imageDiv {height: max-content;}
+
+body.tableTopBody.body-bg .seatItemsSideBar .imageDiv .memberDetails .memberImgThumbnail {
+    height: 40px;
+    width: 40px;
+}
+
+body.tableTopBody.body-bg .tableTopPageContainer .seatItemsSideBar .seatItemsContainer .itemsDetails .itemsList {height: 100% !important;}
+
+body.tableTopBody.body-bg .tableTopPageContainer .seatItemsSideBar .seatItemsContainer .seatItemsContent .borderT {
+    bottom: 0;
+    width: 100%;
+}
+
+body.tableTopBody.body-bg .itemsSelectionView .itemsList {
+    height: 100%;
+}
+
+
+body.tableTopBody.body-bg .tableTopPageContainer .checkDetailsView .checkDetailsCard {
+    height: 90% !important;
+}
