@@ -1,6 +1,6 @@
 {
   "name": "apac",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Fixes and Enhancements for APAC Themes",
   "main": "index.js",
   "scripts": {
