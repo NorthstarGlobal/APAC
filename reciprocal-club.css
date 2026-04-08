@@ -1,10 +1,11 @@
 body.wcprop-2 .reciprocal-clubs-portlet section.portlet .rc-container .rc-search {
     border-radius: 1rem !important;
-    margin: 1rem;
+    margin: 1rem 2rem;
+    box-shadow: 0 0 10px color-mix(in srgb, var(--primary-color) 35%, white 65%);
+
 }
 body.wcprop-2 .reciprocal-clubs-portlet section.portlet .rc-container .rc-clubs .rc-clubs-grid .ui-g .ui-datagrid-column .rc-club {
-    background: linear-gradient(143deg, var(--primary-color) 0%, 
-color-mix(in srgb, var(--primary-color) 95%, white 3%) 100%) !important;
+    background: linear-gradient(143deg, var(--primary-color) 0%, color-mix(in srgb, var(--primary-color) 95%, white 3%) 100%) !important;
     outline: 1px solid var(--primary-color);
     outline-offset: 3px;
     height: 100%;
