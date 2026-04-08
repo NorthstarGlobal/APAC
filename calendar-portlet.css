@@ -1,0 +1,42 @@
+body.wcprop-2 #ui-area .calendar-portlet section.portlet.calendar-portlet-column-parent .calendar-portlet-column-grid .scheduler-base .scheduler-event-recorder-popover,body.wcprop-2 #ui-area .calendar-portlet section.portlet .calendar-portlet-column-parent .calendar-portlet-column-grid .popover-title {
+	 background: var(--portlet-overlay);
+}
+body.wcprop-2 #ui-area .calendar-portlet section.portlet .calendar-portlet-column-parent .calendar-portlet-column-grid .scheduler-base .scheduler-event-recorder-popover .scheduler-event-recorder-content,body.wcprop-2 #ui-area .calendar-portlet section.portlet .calendar-portlet-column-parent .calendar-portlet-column-grid .popover-title .scheduler-event-recorder-content {
+	 background: transparent;
+}
+body.wcprop-2 #ui-area .calendar-portlet section.portlet .calendar-portlet-column-parent .calendar-portlet-column-grid .scheduler-base .scheduler-base-content .yui3-widget-bd .scheduler-view .scheduler-view-day-content .yui3-widget-bd .scheduler-view-day-table tbody .scheduler-view-coldata .scheduler-view-day-table-colday .scheduler-view-day-table-col-shim .scheduler-event .scheduler-event-title {
+	 font-size: 14px !important;
+}
+body.wcprop-2 #ui-area .calendar-portlet section.portlet .calendar-portlet-column-parent .calendar-portlet-column-grid .scheduler-base .yui3-widget-bd .scheduler-month-view-content {
+	 height: auto !important;
+}
+body.wcprop-2 #ui-area .calendar-portlet section.portlet .calendar-portlet-column-parent .calendar-portlet-column-grid .scheduler-base .scheduler-view-table-row > table tbody tr td {
+	 padding: 0 0.1rem !important;
+	 margin: 0;
+}
+body.wcprop-2 #ui-area .calendar-portlet section.portlet .calendar-portlet-column-parent .calendar-portlet-column-grid .scheduler-base .scheduler-view-table-row > table tbody tr td:not(:first-child) {
+	 padding: 0;
+}
+body.wcprop-2 #ui-area .calendar-portlet section.portlet .calendar-portlet-column-parent .calendar-portlet-column-grid .scheduler-base .scheduler-view-table-row > table tbody tr td .scheduler-view-table-more {
+	 font-size: 14px;
+}
+body.wcprop-2 #ui-area .calendar-portlet section.portlet .calendar-portlet-column-parent .calendar-portlet-column-grid .scheduler-base .scheduler-view-table-row > table tbody tr td.scheduler-view-table-data-col-title-today {
+	 color: var(--primary-color) !important;
+}
+body.wcprop-2 #ui-area .calendar-portlet section.portlet .calendar-portlet-column-parent .calendar-portlet-column-grid .scheduler-base .scheduler-view-table-row > table tbody tr:first-of-type > td:first-of-type {
+	 padding: 1rem !important;
+}
+body.wcprop-2 #ui-area .calendar-portlet section.portlet .calendar-portlet-column-parent .calendar-portlet-column-grid .scheduler-base .scheduler-event-recorder-popover td {
+	 border: 0;
+	 padding: 0;
+}
+body.wcprop-2 #ui-area .calendar-portlet section.portlet .calendar-portlet-column-parent .calendar-portlet-column-grid .scheduler-base .scheduler-event-recorder-popover .popover-content .close {
+	 color: #6b6c7e;
+	 background: transparent;
+	 border: 0;
+	 font-size: 32px;
+}
+body.wcprop-2 #ui-area .calendar-portlet section.portlet .calendar-portlet-column-parent .calendar-portlet-column-grid .scheduler-base .scheduler-event-recorder-popover .btn-toolbar-content {
+	 justify-content: flex-end;
+}
+ 
