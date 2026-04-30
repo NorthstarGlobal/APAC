@@ -1,0 +1,34 @@
+body.wcprop-2 .bio-listing .bio-blocks {
+    --bio-per-row: 3;
+    --bio-column-gap: 7%;
+    --bio-row-gap: 3vw;
+    column-gap: var(--bio-column-gap);
+    row-gap: var(--bio-row-gap);
+}
+body.wcprop-2 .bio-listing .bio-blocks .card {
+    flex-direction: column;
+}
+
+body.wcprop-2 .bio-listing .bio-blocks .card .card-image {
+    width: 100%;
+    padding-bottom: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+body.wcprop-2 .bio-listing .bio-blocks .card {
+    width: calc((100% - (var(--bio-per-row) - 1) * var(--bio-column-gap)) / var(--bio-per-row));;
+    margin: 0 !important;
+    padding: 2% !important;
+    background: var(--wc-overlay-bg);
+    height: 100%;
+}
+
+
+body.wcprop-2 .bio-listing .bio-blocks .card .card-body {
+    width: 100%;
+}
+
+body.wcprop-2 .bio-listing .bio-blocks .card .card-image img {
+    position: relative;
+}
