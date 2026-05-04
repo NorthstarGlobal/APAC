@@ -20,7 +20,7 @@ body.wcprop-2 .bio-listing .bio-blocks .card {
     width: calc((100% - (var(--bio-per-row) - 1) * var(--bio-column-gap)) / var(--bio-per-row));;
     margin: 0 !important;
     padding: 2% !important;
-    background: var(--wc-overlay-bg);
+    background: #f7f7f7;
     height: 100%;
 }
 
