@@ -1,3 +1,3 @@
-body.wcprop-2 #wrapper #ui-area .action-bar .card-content {
-    justify-content: center;
+body.wcprop-2 #wrapper #ui-area .action-bar .card .card-body{
+    padding-left: 0;
 }
