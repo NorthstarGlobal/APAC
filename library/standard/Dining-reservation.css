@@ -1,0 +1,133 @@
+body.wcprop-2 #ui-area .DiningReservation-portlet section.portlet .dining-confirm-details {
+    background: var(--portlet-overlay);
+}
+
+@media (max-width: 575.98px) {
+    body.wcprop-2 #ui-area
+        .DiningReservation-portlet
+        section.portlet
+        .ui-panel
+        .ui-panel-content
+        .ui-datatable-reflow
+        .ui-datatable-data
+        td[role="gridcell"]:has(i) {
+        display: flex;
+        justify-content: flex-end;
+        gap: 0.5rem;
+    }
+}
+
+body.wcprop-2 #ui-area
+    .DiningReservation-portlet
+    section.portlet
+    .ui-panel
+    .ui-panel-content
+    .ui-datatable-reflow
+    .ui-datatable-data
+    td[role="gridcell"]:has(i)
+    .cancel-trash
+    a {
+    line-height: 1;
+}
+
+body.wcprop-2 #ui-area .DiningReservation-portlet section.portlet h1 {
+    font-size: calc(var(--wc-fs-heading1) * 1px) !important;
+}
+
+body.wcprop-2 #ui-area .DiningReservation-portlet section.portlet .ui-g > div {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+body.wcprop-2 #ui-area .DiningReservation-portlet section.portlet .dining-confirm-details {
+    padding: 1rem;
+}
+
+body.wcprop-2 #ui-area .DiningReservation-portlet
+    section.portlet
+    .dining-confirm-details
+    .reservation-responsive
+    .ui-grid-row {
+    display: flex;
+}
+
+body.wcprop-2 #ui-area .DiningReservation-portlet section.portlet .dining-search-div {
+    padding: 1.25rem !important;
+    border-radius: 20px !important;
+}
+
+body.wcprop-2 #ui-area .DiningReservation-portlet section.portlet .dining-search-div:before {
+    background: var(--portlet-overlay) !important;
+}
+
+body.wcprop-2 #ui-area .DiningReservation-portlet section.portlet .dining-search-div h3 {
+    color: var(--heading-color1) !important;
+}
+
+body.wcprop-2 #ui-area .DiningReservation-portlet
+    section.portlet
+    .dining-search-div
+    .ui-panel-content.ui-widget-content
+    > div {
+    color: var(--wc-font-color) !important;
+}
+
+@media (max-width: 575.98px) {
+    body.wcprop-2 #ui-area .DiningReservation-portlet
+        section.portlet
+        .dining-search-div
+        .dining-search-label
+        > .ui-grid-responsive
+        > .ui-grid-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+body.wcprop-2 #ui-area .DiningReservation-portlet
+    section.portlet
+    .dining-search-div
+    .dining-search-label
+    .ui-fluid
+    h3:after {
+    content: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.";
+    font-size: 20px;
+    display: block;
+    color: var(--wc-font-color);
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+body.wcprop-2 #ui-area .DiningReservation-portlet
+    section.portlet
+    .dining-search-div
+    .dining-search-label
+    .ui-fluid
+    .ui-widget-content
+    .ui-g {
+    max-width: 700px;
+}
+
+body.wcprop-2 #ui-area .DiningReservation-portlet
+    section.portlet
+    .ui-panel
+    .ui-panel-content
+    .ui-datatable-reflow
+    .ui-datatable-data
+    td[role="gridcell"]
+    a
+    i {
+    margin-bottom: 12px;
+}
+
+body.wcprop-2 #ui-area .DiningReservation-portlet
+    section.portlet
+    .ui-panel
+    .ui-panel-content
+    .ui-grid.ui-grid.ui-grid-responsive
+    .btn-responsive
+    a {
+    max-width: max-content !important;
+    margin-top: 0;
+    border: 0;
+}

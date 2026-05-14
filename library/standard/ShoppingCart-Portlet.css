@@ -1,0 +1,396 @@
+body.wcprop-2 #ui-area .shoppingCart-portlet {
+    background: var(--portlet-overlay) !important;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet label {
+    background: transparent;
+}
+
+body.wcprop-2
+    #ui-area
+    .shoppingCart-portlet
+    form
+    > span#_eCommerce_WAR_northstarportlet_\:shoppingItemsForm\:paymentMethodsId
+    .ui-grid.ui-grid-responsive:first-of-type {
+    display: none;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet span#_eCommerce_WAR_northstarportlet_\:shoppingItemsForm\:quantityId,
+body.wcprop-2 #ui-area .shoppingCart-portlet span#_eCommerce_WAR_northstarportlet_\:shoppingItemsForm\:itemDataList\:0\:quantityId {
+    max-width: 110px;
+    padding-left: 10px;
+}
+
+body.wcprop-2
+    #ui-area
+    .shoppingCart-portlet
+    span#_eCommerce_WAR_northstarportlet_\:shoppingItemsForm\:paymentMethodsId
+    table
+    tr:nth-of-type(2) {
+    display: none;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet h1.shop-heading {
+    color: var(--secondary-color) !important;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet .shop-desc-dialog.text-center.ui-draggable {
+    max-width: max-content;
+    overflow: hidden;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet .shop-desc-dialog.text-center.ui-draggable img.shop-dialogue-image {
+    width: 250px;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet .ui-menu-list {
+    background: var(--secondary-color) !important;
+    color: #fff !important;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet .ui-menu-list a,
+body.wcprop-2 #ui-area .shoppingCart-portlet .ui-menu-list h3,
+body.wcprop-2 #ui-area .shoppingCart-portlet .ui-menu-list a span,
+body.wcprop-2 #ui-area .shoppingCart-portlet .ui-menu-list h3 span {
+    color: #fff !important;
+    font-size: 16px !important;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet .grid.label-long-recent-acti.label-long-primary {
+    font-size: 20px;
+    text-align: right;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet .shop-item-grid {
+    background: #fff;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet .shop-item-grid .ui-grid-row > div:first-of-type {
+    flex: 1 1 33.33% !important;
+    max-width: 3.33% !important;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet .shop-item-grid .ui-grid-row > div:nth-of-type(2) {
+    flex: 1 1 66.66%;
+    max-width: 66.66%;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet .shop-item-grid .ui-grid-row > div:last-of-type {
+    flex: 1 1 100%;
+    max-width: 100%;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet .shop-item-grid .ui-grid-row > div:last-of-type .shop-add-update-button {
+    /* @include btn-portlet(16px, 1.5); */
+}
+
+body.wcprop-2
+    #ui-area
+    .shoppingCart-portlet
+    .shop-item-grid
+    .ui-panelgrid-content.ui-grid-responsive
+    .ui-panelgrid-cell
+    .item-data-grid
+    tbody
+    tr
+    td
+    span.shop-show-desc,
+body.wcprop-2
+    #ui-area
+    .shoppingCart-portlet
+    .shop-item-grid
+    .ui-panelgrid-content.ui-grid-responsive
+    .ui-panelgrid-cell
+    .item-data-grid
+    tbody
+    tr
+    td
+    span.shop-product-price {
+    font-size: calc(var(--portlet-font-size) * 1px);
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet .shop-grid-col-1 .ui-menu .ui-menu-list {
+    border-radius: 5px !important;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet .shop-grid-col-2 .ui-datagrid-column .shop-box-grid.shop-box-items-grid {
+    background: #fff;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet .shop-grid-col-2 .ui-datagrid-column .shop-box-grid.shop-box-items-grid .shop-box-image {
+    width: 168px;
+    height: 172px;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet .shop-grid-col-2 .ui-datagrid-column .shop-show-name {
+    font-size: 24px;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet .shop-grid-col-2 .ui-datagrid-column .limited-stock,
+body.wcprop-2 #ui-area .shoppingCart-portlet .shop-grid-col-2 .ui-datagrid-column .shop-show-price {
+    color: var(--secondary-color) !important;
+    font-size: 16px;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet .shop-grid-col-2 .ui-datagrid-column span.shop-show-desc {
+    font-size: 16px;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet .shop-fluid .ui-grid-col-2 {
+    font-weight: normal;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet div#_shoppingCart_WAR_northstarportlet_ table tr td {
+    border: 1px solid var(--wc-border-color) !important;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet .shop-cart-table table td,
+body.wcprop-2 #ui-area .shoppingCart-portlet .shop-cart-table table th {
+    text-align: center !important;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet .shop-cart-table table td {
+    border: 1px solid var(--wc-border-color) !important;
+}
+
+body.wcprop-2
+    #ui-area
+    .shoppingCart-portlet
+    .shop-cart-table
+    table
+    td:nth-of-type(6).col-cart-left {
+    color: var(--secondary-color);
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet .shop-cart-table .ui-datatable-footer {
+    background-color: #f4f4f4 !important;
+    border: 1px solid var(--wc-border-color) !important;
+}
+
+body.wcprop-2
+    #ui-area
+    .shoppingCart-portlet
+    .shop-cart-table
+    .ui-datatable-footer
+    .label-long-recent-acti.label-long-primary {
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+}
+
+body.wcprop-2
+    #ui-area
+    .shoppingCart-portlet
+    .shop-cart-table
+    .ui-datatable-footer
+    .label-long-recent-acti.label-long-primary
+    span.info-bar-right {
+    margin-right: 10px;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet .shop-grid-col-3 .shop-your-order {
+    justify-content: flex-start;
+    padding-left: 12px;
+    border: 0;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet .shop-grid-col-3 .shop-previous-button {
+    max-width: max-content;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 4px !important;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet .shop-grid-col-3 > div,
+body.wcprop-2 #ui-area .shoppingCart-portlet .shop-grid-col-3 table tr {
+    border: 0 !important;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet .shop-grid-col-3 img {
+    max-width: 96px !important;
+    width: 96px !important;
+    border-radius: 4px;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet .shop-grid-col-3 .ui-panelgrid-cell {
+    padding: 0 12px !important;
+    line-height: 1.2;
+    font-size: 12px !important;
+}
+
+body.wcprop-2
+    #ui-area
+    .shoppingCart-portlet
+    a.ui-commandlink.ui-area-btn.ui-area-btn-danger.shop-del-button {
+    background: var(--secondary-color) !important;
+    padding: 5px 11px !important;
+    top: auto;
+    bottom: 10px;
+}
+
+body.wcprop-2
+    #ui-area
+    .shoppingCart-portlet
+    a.ui-commandlink.ui-area-btn.ui-area-btn-danger.shop-del-button:hover {
+    background: var(--btn-text-hover) !important;
+    outline: 1px solid var(--secondary-color) !important;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet .shop-desc-dialog {
+    width: 27.7vw !important;
+}
+
+body.wcprop-2
+    #ui-area
+    .shoppingCart-portlet
+    .shop-desc-dialog.ui-widget-content.ui-shadow.ui-hidden-container.shop-desc-dialog {
+    overflow: unset !important;
+    width: 27.7vw !important;
+}
+
+body.wcprop-2
+    #ui-area
+    .shoppingCart-portlet
+    .shop-desc-dialog.ui-widget-content.ui-shadow.ui-hidden-container.shop-desc-dialog
+    img {
+    max-height: 360px;
+    max-width: 100%;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet section.portlet .ui-dialog .ui-dialog-content,
+body.wcprop-2 #ui-area .shoppingCart-portlet section.portlet .ui-dialog .shop-desc-dialog {
+    overflow-y: auto;
+    max-height: 70vh;
+    overflow-x: hidden !important;
+    justify-content: center;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet .ui-calendar .ui-datepicker-trigger.ui-button {
+    border: 1px solid #e7e7ed !important;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet .shop-ship-button-row {
+    display: flex;
+    margin: 0.5rem 0 !important;
+    justify-content: flex-end !important;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet .ui-corner-all.shop-panel .ui-panel-titlebar.ui-widget-header {
+    background: var(--primary-color) !important;
+    color: #fff !important;
+}
+
+body.wcprop-2 #ui-area .shoppingCart-portlet .ui-corner-all.shop-panel .ui-panel-titlebar {
+    display: flex;
+    align-items: center;
+}
+
+body.wcprop-2
+    #ui-area
+    .shoppingCart-portlet
+    span#_eCommerce_WAR_northstarportlet_\:shoppingItemsForm\:shopAddressId
+    .shop-delivery-grid {
+    margin-bottom: 1rem;
+}
+
+/* =========================
+   MEDIA QUERIES
+========================= */
+
+@media (max-width: 991.98px) {
+    body.wcprop-2 #ui-area .shoppingCart-portlet .shop-grid-col-1.ui-grid-col-2 {
+        flex: 0 0 27%;
+        max-width: 27%;
+    }
+
+    body.wcprop-2 #ui-area .shoppingCart-portlet .shop-grid-col-2.ui-grid-col-10 {
+        flex: 0 0 73%;
+        max-width: 73%;
+    }
+
+    body.wcprop-2 #ui-area .shoppingCart-portlet .shop-grid-col-2 .ui-datagrid-column .shop-show-name {
+        line-height: 1.2;
+    }
+
+    body.wcprop-2
+        #ui-area
+        .shoppingCart-portlet
+        .shop-grid-col-2
+        .shop-items.shop-table
+        .shop-item-grid
+        .ui-panelgrid-content.ui-grid-responsive
+        .ui-grid-row
+        .ui-panelgrid-cell.ui-grid-col-2 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    body.wcprop-2
+        #ui-area
+        .shoppingCart-portlet
+        .shop-grid-col-2
+        .shop-items.shop-table
+        .shop-item-grid
+        .ui-panelgrid-content.ui-grid-responsive
+        .ui-grid-row
+        .ui-panelgrid-cell.ui-grid-col-8 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    body.wcprop-2 #ui-area .shoppingCart-portlet .shop-item-grid .ui-grid-row > div:last-of-type {
+        text-align: center !important;
+        margin-top: 1rem !important;
+    }
+
+    body.wcprop-2 #ui-area .shoppingCart-portlet .shop-cart-table td {
+        display: flex !important;
+        border: 1px solid var(--wc-border-color) !important;
+        border-bottom: none !important;
+        vertical-align: middle !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    body.wcprop-2 #ui-area .shoppingCart-portlet .shop-cart-table td a:has(img) {
+        width: 100%;
+    }
+
+    body.wcprop-2 #ui-area .shoppingCart-portlet .shop-cart-table td a:has(img) img {
+        width: 100% !important;
+    }
+
+    body.wcprop-2 #ui-area .shoppingCart-portlet .shop-cart-table td .ui-column-title {
+        margin-right: auto !important;
+        text-align: left !important;
+        font-weight: 600 !important;
+        min-width: auto !important;
+        padding: 0 0.5rem !important;
+        display: unset !important;
+    }
+
+    body.wcprop-2 #ui-area .shoppingCart-portlet .shop-grid-col-3 .ui-panelgrid-cell {
+        font-size: 16px !important;
+        line-height: 1.5;
+    }
+}
+/* Shopping Cart Portlet Only */
+ body.wcprop-2 .shoppingCart-portlet section.portlet table tbody tr td, body.wcprop-2 .calendar-portlet section.portlet .calendar-portlet-column-parent .calendar-portlet-column-grid .scheduler-base .scheduler-base-content .scheduler-base-hd .scheduler-base-controls .btn-group:first-child button {
+	 border: none !important;
+}
+ body.wcprop-2 .shoppingCart-portlet section.portlet label.label.label-info.shop-delivery-label.main-label, body.wcprop-2 .shoppingCart-portlet section.portlet #_shoppingCart_WAR_northstarportlet_ .ui-panelgrid-cell.ui-grid-col-4, body.wcprop-2 .shoppingCart-portlet section.portlet table tbody tr td {
+	 background: transparent;
+}
+ body.wcprop-2 .shoppingCart-portlet section.portlet .shop-row .shop-grid-col-2 .shop-items.shop-table .shop-item-grid .ui-panelgrid-content.ui-grid-responsive .ui-panelgrid-cell .item-data-grid tbody tr td span.shop-show-discount {
+	 display: none;
+}
+ @media (max-width: 575.98px) {
+	 body.wcprop-2 .shoppingCart-portlet section.portlet .shop-cart-table .ui-datatable-footer .label-long-recent-acti.label-long-primary {
+		 font-size: 16px;
+	}
+}
+ 

@@ -1,0 +1,101 @@
+/* ==========================================================================
+   eCommerce Portlet - Standardized Styles
+   ========================================================================== */
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+.eCommerce-portlet section.portlet .shop-item-grid .item-data-grid td span,
+.eCommerce-portlet section.portlet table.grid.product-grid > tbody > tr > td {
+    font-size: 16px;
+}
+
+@media (max-width: 575.98px) {
+    .eCommerce-portlet span,
+    .eCommerce-portlet section.portlet table.grid.shop-comment-grid td textarea {
+        font-size: 16px;
+    }
+}
+
+.eCommerce-portlet
+    .shop-desc-dialog.text-center.ui-draggable
+    span.ui-dialog-title {
+    font-size: 18px;
+    width: 25.56vw;
+}
+
+/* ==========================================================================
+   Price Styling
+   ========================================================================== */
+
+.eCommerce-portlet section.portlet .shop-product-price {
+    color: var(--secondary-color) !important;
+}
+
+/* ==========================================================================
+   Remove Discount Labels
+   ========================================================================== */
+
+.eCommerce-portlet section.portlet span.shop-show-discount {
+    display: none;
+}
+
+/* ==========================================================================
+   Table & Grid Cleanup
+   ========================================================================== */
+
+.eCommerce-portlet section.portlet table.grid.product-grid > tbody > tr > td,
+.eCommerce-portlet section.portlet table.grid.shop-comment-grid td,
+.eCommerce-portlet section.portlet .shop-shiping-address-area .shop-well .ui-grid-row,
+.eCommerce-portlet section.portlet .shop-grid-col-3 .shop-your-order,
+.eCommerce-portlet section.portlet .shop-cart-items-temp .shop-order-grid {
+    border: none !important;
+}
+
+/* ==========================================================================
+   Background Reset
+   ========================================================================== */
+
+.eCommerce-portlet
+    section.portlet
+    .ui-panelgrid-content.ui-widget-content.ui-grid.ui-grid-responsive
+    .ui-panelgrid-cell.ui-grid-col-10,
+.eCommerce-portlet
+    section.portlet
+    .ui-panelgrid-content.ui-widget-content.ui-grid.ui-grid-responsive
+    .ui-panelgrid-cell.ui-grid-col-2,
+.eCommerce-portlet
+    section.portlet
+    .ui-grid-row
+    > [class*="ui-grid-col"] {
+    background: none !important;
+}
+
+/* ==========================================================================
+   Layout Adjustments
+   ========================================================================== */
+
+.eCommerce-portlet
+    section.portlet
+    .liferay-faces-bridge-body
+    .shop-fluid
+    .ui-grid-col-4 {
+    margin-top: 0;
+}
+
+.eCommerce-portlet
+    section.portlet
+    .ui-dialog.shop-desc-dialog
+    img.shop-dialog-image {
+    width: 100% !important;
+}
+
+.eCommerce-portlet label.label {
+    background: none !important;
+}
+
+.eCommerce-portlet
+    span.ui-spinner.ui-widget.ui-corner-all.shop-spinner-image.shop-spinner.col-cart-right {
+    max-width: 110px;
+}
