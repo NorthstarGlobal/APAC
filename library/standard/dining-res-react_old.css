@@ -1,0 +1,192 @@
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ {
+  --main-color: var(--primary-color);
+  --shade-color: color-mix(var(--primary-color), 80% transparent);
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ * {
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary-color) transparent;
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ *::-webkit-scrollbar-button {
+  display: none;
+  width: 0;
+  height: 0;
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiCollapse-wrapper .MuiButton-outlinedSecondary {
+  color: var(--white-color) !important;
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiCollapse-wrapper .MuiButton-outlinedSecondary svg path {
+  fill: var(--white-color) !important;
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .additional-information .MuiButton-textPrimary {
+  color: var(--white-color);
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiButton-sizeSmall,
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiButton-outlined {
+  background: var(--primary-color);
+  border-color: var(--primary-color) !important;
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiButton-sizeSmall.MuiButton-outlinedSizeSmall,
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiButton-outlined.MuiButton-outlinedSizeSmall {
+  color: var(--white-color) !important;
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiButton-sizeSmall .MuiButton-iconSizeSmall svg,
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiButton-sizeSmall .MuiButton-iconSizeSmall svg path,
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiButton-outlined .MuiButton-iconSizeSmall svg,
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiButton-outlined .MuiButton-iconSizeSmall svg path {
+  color: #fff !important;
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiGrid-container .loc-item .loc-item-container .sliding-element-container {
+  position: relative;
+  height: auto;
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiGrid-container .loc-item .loc-item-container .sliding-element-container .sliding-item button {
+  background: var(--shade-color);
+  padding: 5px 10px !important;
+  font-size: 16px;
+  margin-bottom: 1rem;
+  border-color: var(--primary-color) !important;
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiGrid-container .loc-item .loc-item-container .sliding-element-container .sliding-item button:hover {
+  border-color: var(--primary-color) !important;
+  color: var(--primary-color);
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiGrid-container .loc-item .loc-item-container .sliding-element-container .sliding-item button.btn-primary {
+  background: var(--primary-color);
+  border-radius: 4px;
+  border-color: var(--primary-color) !important;
+  color: var(--white-color) !important;
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiGrid-container .MuiGrid-item svg,
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiGrid-container .MuiGrid-item svg path {
+  color: var(--primary-color);
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiGrid-container .MuiGrid-item .MuiAvatarGroup-root .avatar-background {
+  background: var(--secondary-color);
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiGrid-container .MuiGrid-item .btn-success {
+  background: var(--primary-color) !important;
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiGrid-container .MuiGrid-item .btn-success:hover {
+  background: var(--secondary-color) !important;
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiGrid-container .MuiGrid-item .btn-outline {
+  border-color: var(--primary-color) !important;
+  color: var(--primary-color);
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiGrid-container .MuiGrid-item .MuiFormControl-root {
+  margin: 0 !important;
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiGrid-container .MuiGrid-item .MuiFormControl-root .MuiInputLabel-formControl {
+  position: relative;
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiGrid-container .MuiGrid-item .MuiFormControl-root .MuiPaper-rounded,
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiGrid-container .MuiGrid-item .MuiFormControl-root input {
+  margin-top: 0;
+  height: var(--field-height);
+  padding: 0;
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiGrid-container .MuiGrid-item:has(.MuiTouchRipple-root) .MuiButton-containedPrimary {
+  margin: 0;
+  transform: translateY(50%);
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ .btn-info {
+  background: color-mix(var(--primary-color), 90% var(--white-color));
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ .btn-info:hover {
+  color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ .btn-primary {
+  border-radius: 4px !important;
+  border-color: var(--primary-color) !important;
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ .edit-container .edit-top-section {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ .edit-container .edit-top-section .MuiTypography-root {
+  color: var(--white-color);
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ .edit-container .edit-middle-section .MuiTypography-gutterBottom {
+  margin-left: 5px;
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ .edit-container .edit-main-section .sub-location-and-booking-info .gap-bottom10 .MuiAvatar-colorDefault {
+  background: var(--primary-color);
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ .edit-container .edit-main-section .MuiButton-label {
+  column-gap: 5px;
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ .edit-container .edit-main-section button.MuiButton-outlinedSecondary {
+  border-color: var(--primary-color) !important;
+  color: var(--primary-color);
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ .edit-container .edit-main-section button.btn-success {
+  background: var(--primary-color);
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .MuiDrawer-paper {
+  max-height: max-content;
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .MuiDrawer-paper .add-reservation-member-content {
+  max-height: max-content;
+}
+
+.MuiDrawer-paper.MuiDrawer-paperAnchorRight .drawer-back-btn svg {
+  color: var(--primary-color);
+}
+.MuiDrawer-paper.MuiDrawer-paperAnchorRight > .res-drawer > .MuiGrid-item {
+  box-shadow: 1px 1px 10px 5px color-mix(var(--primary-color), 85% var(--white-color));
+  padding: 0;
+  margin: 1rem;
+  transition: 0.5s all;
+}
+.MuiDrawer-paper.MuiDrawer-paperAnchorRight > .res-drawer > .MuiGrid-item:hover {
+  box-shadow: 1px 1px 10px 10px color-mix(var(--primary-color), 75% var(--white-color));
+}
+.MuiDrawer-paper.MuiDrawer-paperAnchorRight > .res-drawer > .MuiGrid-item .MuiCardActions-root .MuiAvatar-root {
+  color: var(--primary-color);
+}
+.MuiDrawer-paper.MuiDrawer-paperAnchorRight > .res-drawer > .MuiGrid-item .MuiCardActions-root .MuiIconButton-root svg {
+  color: var(--primary-color);
+}
+.MuiDrawer-paper.MuiDrawer-paperAnchorBottom .add-reservation-member-content .tabs-body .tabs-header li.active a {
+  background: var(--primary-color);
+  color: var(--white-color) !important;
+}
+.MuiDrawer-paper.MuiDrawer-paperAnchorBottom .add-reservation-member-content .tabs-body .tabs-header li.active a span svg path {
+  color: var(--white-color) !important;
+}
+.MuiDrawer-paper.MuiDrawer-paperAnchorBottom .add-reservation-member-content .tabs-body .tabs-header li > a span svg path {
+  color: var(--primary-color) !important;
+}
+.MuiDrawer-paper.MuiDrawer-paperAnchorBottom .add-reservation-member-content .tabs-body .tabs-content .drawer-content .selected-members-list .sliding-element .avatar-background {
+  background: var(--primary-color);
+}
+.MuiDrawer-paper.MuiDrawer-paperAnchorBottom .add-reservation-member-content .tabs-body .tabs-content .drawer-content button.MuiButton-outlinedSizeLarge {
+  background: var(--primary-color);
+}
+.MuiDrawer-paper.MuiDrawer-paperAnchorBottom .selected-members-list .sliding-element-container .sliding-element .avatar-background {
+  background: var(--primary-color);
+}
+.MuiDrawer-paper.MuiDrawer-paperAnchorBottom .tabs-textItem {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.MuiDrawer-paper.MuiDrawer-paperAnchorBottom .tabs-textItem input, .MuiDrawer-paper.MuiDrawer-paperAnchorBottom .tabs-textItem select {
+  color: var(--primary-color) !important;
+}
+.MuiDrawer-paper.MuiDrawer-paperAnchorBottom .tabs-textItem .add-guest-buttons {
+  margin-bottom: 1rem;
+}
+.MuiDrawer-paper.MuiDrawer-paperAnchorBottom .tabs-textItem .add-guest-buttons button {
+  background: var(--primary-color);
+}
+.MuiDrawer-paper.MuiDrawer-paperAnchorBottom .tabs-textItem .MuiGrid-item .MuiTypography-root {
+  font-family: var(--wc-heading-font-family2);
+}
+.MuiDrawer-paper.MuiDrawer-paperAnchorBottom .tabs-textItem .MuiGrid-item .custom-input-field,
+.MuiDrawer-paper.MuiDrawer-paperAnchorBottom .tabs-textItem .MuiGrid-item .custom-select-field {
+  box-shadow: 1px 1px 5px 5px color-mix(var(--primary-color), 95% transparent);
+  border-radius: 4px;
+}
