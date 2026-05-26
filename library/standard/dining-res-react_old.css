@@ -180,7 +180,7 @@ body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary
         min-height: 70vh;
     }
 }
-@media (max-width:768px){
+@media (max-width:550px){
     body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ .add-reservation-member-content.gap-top5.pad-right10.pad-left10 .tabs-content {
         min-height: 90vh;
     }
