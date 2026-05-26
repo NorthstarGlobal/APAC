@@ -2,7 +2,9 @@ body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary
   --main-color: var(--primary-color);
   --shade-color: color-mix(var(--primary-color), 80% transparent);
 }
-
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ .MuiContainer-root{
+  padding: 0;
+}
 body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ * {
   scrollbar-width: thin;
   scrollbar-color: var(--primary-color) transparent;
@@ -64,9 +66,10 @@ body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary
 
 body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiGrid-container .loc-item .loc-item-container .sliding-element-container .sliding-item button.btn-primary {
   background: var(--primary-color);
-  border-radius: 4px;
+  border-radius: 5px !important;
   border-color: var(--primary-color) !important;
   color: var(--white-color) !important;
+  padding: 7px 10px !important;
 }
 
 body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiGrid-container .MuiGrid-item svg,
