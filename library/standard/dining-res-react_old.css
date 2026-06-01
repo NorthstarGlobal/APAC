@@ -111,11 +111,14 @@ body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary
 
 body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiGrid-container .MuiGrid-item:has(.MuiTouchRipple-root) .MuiButton-containedPrimary {
   margin: 0;
-  transform: translateY(50%);
+  max-height: max-content;
   background-color: var(--primary-color);
   border-color: var(--primary-color);
 }
-
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiGrid-container .MuiGrid-item:has(.MuiTouchRipple-root) {
+    display: flex;
+    align-items: flex-end;
+}
 body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ .btn-info {
   background: color-mix(var(--primary-color), 90% var(--white-color));
 }
