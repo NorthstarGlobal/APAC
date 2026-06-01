@@ -292,7 +292,9 @@ body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .MuiDrawer-paper 
 .MuiDrawer-root.MuiDrawer-modal .sliding-element-container .sliding-element .sliding-item button.btn-info {
     background: color-mix(var(--primary-color), 90% var(--white-color));
 }
-
+.MuiPaper-root.MuiPopover-paper .react-calendar__navigation button:hover {
+    color: var(--wc-body-bg);
+}
 .MuiDrawer-root.MuiDrawer-modal .search-drawer-date button.MuiButtonBase-root.MuiIconButton-root.pd-7.f-icon-btn-pick.MuiIconButton-colorPrimary svg path {
     color: var(--primary-color) !important;
 }
