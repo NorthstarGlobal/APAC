@@ -40,3 +40,25 @@ body.wcprop-2 #ui-area .calendar-portlet section.portlet .calendar-portlet-colum
 	 justify-content: flex-end;
 }
  
+body.wcprop-2 #ui-area .calendar-portlet section.portlet .calendar-portlet-column-parent .calendar-portlet-column-grid .scheduler-base-content .scheduler-base-controls .btn-group {
+    display: flex;
+}
+
+body.wcprop-2 #ui-area .calendar-portlet section.portlet .calendar-portlet-column-parent .calendar-portlet-column-grid .scheduler-base-content .scheduler-base-controls .btn-group button {
+    flex: 1;
+}
+
+body.wcprop-2 #ui-area .calendar-portlet section.portlet .calendar-portlet-column-parent .calendar-portlet-column-grid .scheduler-base .scheduler-base-content .scheduler-base-hd .scheduler-base-views {
+    float: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body.wcprop-2 #ui-area .calendar-portlet section.portlet .calendar-portlet-column-parent .calendar-portlet-column-grid .scheduler-base .scheduler-base-content .scheduler-base-hd .scheduler-base-views button {
+    border: 0;
+    border-radius: 0 !important;
+}
+
+body.wcprop-2 #ui-area .calendar-portlet section.portlet .calendar-portlet-column-parent .calendar-portlet-column-grid .scheduler-base .scheduler-base-content .scheduler-base-hd .scheduler-base-views button {
+	border: 1px solid var(--wc-body-bg);
+}
