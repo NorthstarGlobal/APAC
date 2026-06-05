@@ -1,16 +1,25 @@
 body.wcprop-2 .body-inner-wrap #wrapper #ui-area:has(#portlet_password-reminder) #portlet_password-reminder, body.wcprop-2 .body-inner-wrap #wrapper #ui-area:has(#portlet_new-password) #portlet_password-reminder, body.wcprop-2 .body-inner-wrap #wrapper #ui-area:has(#portlet_password-reminder) #portlet_new-password, body.wcprop-2 .body-inner-wrap #wrapper #ui-area:has(#portlet_new-password) #portlet_new-password {
 	 margin-top: 0;
 }
- body.wcprop-2 .body-inner-wrap #wrapper #ui-area:has(#portlet_password-reminder) header, body.wcprop-2 .body-inner-wrap #wrapper #ui-area:has(#portlet_new-password) header {
+ body.wcprop-2 .body-inner-wrap #wrapper #ui-area:has(#portlet_password-reminder) header, 
+ body.wcprop-2 .body-inner-wrap #wrapper #ui-area:has(#portlet_new-password) header {
 	 display: none;
 }
- body.wcprop-2 .body-inner-wrap #wrapper #ui-area:has(#portlet_password-reminder) .sheet, body.wcprop-2 .body-inner-wrap #wrapper #ui-area:has(#portlet_new-password) .sheet {
+ body.wcprop-2 .body-inner-wrap #wrapper #ui-area:has(#portlet_password-reminder) .sheet, 
+ body.wcprop-2 .body-inner-wrap #wrapper #ui-area:has(#portlet_new-password) .sheet {
 	 height: 100vh;
 	 display: flex;
 	 flex-direction: column;
 	 justify-content: center;
 }
- body.wcprop-2 .body-inner-wrap #wrapper #ui-area:has(#portlet_password-reminder) .sheet .truncate-text, body.wcprop-2 .body-inner-wrap #wrapper #ui-area:has(#portlet_new-password) .sheet .truncate-text {
+ body.wcprop-2 .body-inner-wrap #wrapper #ui-area:has(#portlet_password-reminder) .sheet .truncate-text, 
+ body.wcprop-2 .body-inner-wrap #wrapper #ui-area:has(#portlet_new-password) .sheet .truncate-text {
 	 display: none;
 }
  
+body.wcprop-2 #portlet_new-password.portlet .sheet input.form-control, 
+body.wcprop-2 #portlet_password-reminder.portlet .sheet input.form-control, 
+body.wcprop-2 #portlet_new-password.portlet .sheet .btn-primary, 
+body.wcprop-2 #portlet_password-reminder.portlet .sheet .btn-primary {
+    border: 1px solid var(--secondary-color) !important;
+}

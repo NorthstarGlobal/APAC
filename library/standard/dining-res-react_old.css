@@ -1,3 +1,8 @@
+
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiGrid-container .MuiGrid-item:has(.MuiTouchRipple-root) section {
+    max-width: 1280px;
+}
+
 body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ {
   --main-color: var(--primary-color);
   --shade-color: color-mix(var(--primary-color), 80% transparent);
@@ -305,4 +310,62 @@ body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .MuiDrawer-paper 
 
 .react-calendar button:enabled:hover {
     background: var(--primary-color);
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ .MuiContainer-root{
+  padding: 0;
+}
+
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiGrid-container .MuiGrid-item .MuiFormControl-root .MuiInputLabel-formControl {
+    background: #fff;
+    max-width: max-content;
+    border: 4px solid #fff;
+}
+
+body.wcprop-2 .MuiGrid-spacing-xs-3 > .MuiGrid-item {
+    margin-top: 0;
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiGrid-container .MuiGrid-item:has(.MuiTouchRipple-root) .sub-Location .MuiButton-containedPrimary {
+    color: var(--wc-body-bg);
+    margin-left: 5px;
+}
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiGrid-container .MuiGrid-item:has(.MuiTouchRipple-root) .sub-Location .MuiButton-containedPrimary:hover span {
+    color: var(--wc-body-bg);
+}
+
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiGrid-container .MuiGrid-item:has(.MuiTouchRipple-root) .sub-Location button.MuiButton-containedPrimary:last-of-type {
+    margin-left: 5px;
+}
+
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiGrid-container .MuiGrid-item:has(.MuiTouchRipple-root) .sub-Location .MuiButton-containedPrimary:hover span {
+    color: var(--wc-body-bg);
+}
+
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiGrid-container .loc-item .loc-item-container .sliding-element-container .sliding-item button {
+    margin-bottom: 5px;
+}
+
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiGrid-container .loc-item .loc-item-container .sliding-element-container {
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiGrid-container .loc-item .loc-item-container .sliding-element-container .sliding-element {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media (max-width:768px){
+    body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ section.portlet .MuiContainer-maxWidthLg .MuiGrid-container .loc-item .loc-item-container .sliding-element-container .sliding-item button.MuiButtonBase-root.MuiButton-root.MuiButton-text{
+    padding: 5px !important;
+    height: 25px;
+    width: 25px;
+    margin-bottom: 0;
+    margin-top: 2rem;
+    }
+    
+    body.wcprop-2 .body-inner-wrap #wrapper #ui-area #main-content .portlet-boundary_DiningReactPortletOld_ .add-reservation-member-content.gap-top5.pad-right10.pad-left10 .tabs-content {
+        min-height: 70vh;
+    }
 }
