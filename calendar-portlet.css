@@ -39,14 +39,17 @@ body.wcprop-2 #ui-area .calendar-portlet section.portlet .calendar-portlet-colum
 body.wcprop-2 #ui-area .calendar-portlet section.portlet .calendar-portlet-column-parent .calendar-portlet-column-grid .scheduler-base .scheduler-event-recorder-popover .btn-toolbar-content {
 	 justify-content: flex-end;
 }
- 
-body.wcprop-2 #ui-area .calendar-portlet section.portlet .calendar-portlet-column-parent .calendar-portlet-column-grid .scheduler-base-content .scheduler-base-controls .btn-group {
-    display: flex;
+
+@media (max-width: 575.98px){
+	body.wcprop-2 #ui-area .calendar-portlet section.portlet .calendar-portlet-column-parent .calendar-portlet-column-grid .scheduler-base-content .scheduler-base-controls .btn-group {
+		display: flex;
+		padding: 0;
+	}
+	body.wcprop-2 #ui-area .calendar-portlet section.portlet .calendar-portlet-column-parent .calendar-portlet-column-grid .scheduler-base-content .scheduler-base-controls .btn-group button {
+		flex: 1;
+	}
 }
 
-body.wcprop-2 #ui-area .calendar-portlet section.portlet .calendar-portlet-column-parent .calendar-portlet-column-grid .scheduler-base-content .scheduler-base-controls .btn-group button {
-    flex: 1;
-}
 
 body.wcprop-2 #ui-area .calendar-portlet section.portlet .calendar-portlet-column-parent .calendar-portlet-column-grid .scheduler-base .scheduler-base-content .scheduler-base-hd .scheduler-base-views {
     float: none;
@@ -61,4 +64,11 @@ body.wcprop-2 #ui-area .calendar-portlet section.portlet .calendar-portlet-colum
 
 body.wcprop-2 #ui-area .calendar-portlet section.portlet .calendar-portlet-column-parent .calendar-portlet-column-grid .scheduler-base .scheduler-base-content .scheduler-base-hd .scheduler-base-views button {
 	border: 1px solid var(--wc-body-bg);
+}
+body.wcprop-2 #ui-area .calendar-portlet section.portlet .calendar-portlet-column-parent .calendar-portlet-column-grid .scheduler-base .scheduler-base-content .scheduler-base-hd .scheduler-base-views button:first-of-type {
+    border-radius: calc(var(--BtnborderRadius) * 1px) 0 0 calc(var(--BtnborderRadius) * 1px) !important;
+}
+
+body.wcprop-2 #ui-area .calendar-portlet section.portlet .calendar-portlet-column-parent .calendar-portlet-column-grid .scheduler-base .scheduler-base-content .scheduler-base-hd .scheduler-base-views button:last-of-type {
+    border-radius: 0 calc(var(--BtnborderRadius) * 1px) calc(var(--BtnborderRadius) * 1px) 0 !important;
 }
