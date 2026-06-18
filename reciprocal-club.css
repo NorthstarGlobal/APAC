@@ -88,6 +88,13 @@ body.wcprop-2 .reciprocal-clubs-portlet section.portlet .rc-container .rc-clubs 
 body.wcprop-2 .reciprocal-clubs-portlet section.portlet .rc-container .rc-clubs .rc-clubs-grid .ui-g .ui-datagrid-column .rc-club .rc-club-info .rc-phone-numbers:not(:has(a)) {
     display: none;
 }
+body.wcprop-2 .reciprocal-clubs-portlet section.portlet .rc-container .rc-clubs .rc-clubs-grid .ui-g .ui-datagrid-column .rc-club .rc-club-ratings .second-row-second.rc-club-amenities {
+    background: transparent;
+}
+body.wcprop-2 .reciprocal-clubs-portlet section.portlet .rc-container .rc-clubs .rc-clubs-grid .ui-g .ui-datagrid-column .rc-club .rc-club-ratings .second-row-second.rc-club-amenities .rc-club-amenity label {
+    color: var(--wc-body-bg);
+    font-weight: normal !important;
+}
 @media (max-width:768px){
     body.wcprop-2 .reciprocal-clubs-portlet section.portlet .rc-container .ui-datagrid .ui-datagrid-content .ui-g {
         flex: 0 0 100%;
