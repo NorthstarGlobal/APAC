@@ -1,25 +1,42 @@
+body.wcprop-2 .reciprocal-clubs-portlet{
+    --background-color: var(--primary-color);
+    --card-link-color: var(--wc-body-bg);
+    --card-text-color: var(--wc-body-bg);
+    --card-btn-color: var(--secondary-color);
+    --card-btn-bg: var(--primary-color);
+    --star-outline: yellow;
+}
+
 body.wcprop-2 .reciprocal-clubs-portlet section.portlet .rc-container .rc-search {
     border-radius: 1rem !important;
     margin: 1rem 2rem;
-    box-shadow: 0 0 10px color-mix(in srgb, var(--primary-color) 35%, white 65%);
+    box-shadow: 0 0 10px color-mix(in srgb, var(--background-color) 35%, white 65%);
 
 }
 body.wcprop-2 .reciprocal-clubs-portlet section.portlet .rc-container .rc-clubs .rc-clubs-grid .ui-g .ui-datagrid-column .rc-club {
-    background: linear-gradient(143deg, var(--primary-color) 0%, color-mix(in srgb, var(--primary-color) 95%, white 3%) 100%) !important;
-    outline: 1px solid var(--primary-color);
+    background: linear-gradient(143deg, var(--background-color) 0%, color-mix(in srgb, var(--background-color) 95%, white 3%) 100%) !important;
+    outline: 1px solid var(--background-color);
     outline-offset: 3px;
     height: 100%;
 }
 
 body.wcprop-2 .reciprocal-clubs-portlet section.portlet .rc-container .rc-clubs .rc-clubs-grid .ui-g .ui-datagrid-column .rc-club .rc-club-info .rc-club-name label, body.wcprop-2 .reciprocal-clubs-portlet section.portlet .rc-container .rc-clubs .rc-clubs-grid .ui-g .ui-datagrid-column .rc-club .rc-club-info .rc-club-address, body.wcprop-2 .reciprocal-clubs-portlet section.portlet .rc-container .rc-clubs .rc-clubs-grid .ui-g .ui-datagrid-column .rc-club .rc-club-info .rc-website-address, body.wcprop-2 .reciprocal-clubs-portlet section.portlet .rc-container .rc-clubs .rc-clubs-grid .ui-g .ui-datagrid-column .rc-club .rc-club-info .rc-email-addresses span, body.wcprop-2 .reciprocal-clubs-portlet section.portlet .rc-container .rc-clubs .rc-clubs-grid .ui-g .ui-datagrid-column .rc-club .rc-club-info .ui-grid-col-2 a.rc-edit-club-btn, body.wcprop-2 .reciprocal-clubs-portlet section.portlet .rc-container .rc-clubs .rc-clubs-grid .ui-g .ui-datagrid-column .rc-club .rc-club-info .rc-phone-numbers::before {
-    color: var(--wc-body-bg) !important;
+    color: var(--card-text-color) !important;
 }
 
 body.wcprop-2 .reciprocal-clubs-portlet section.portlet .rc-container .rc-clubs .rc-clubs-grid .ui-g .ui-datagrid-column .rc-club .rc-club-info a, body.wcprop-2 .reciprocal-clubs-portlet section.portlet .rc-container .rc-clubs .rc-clubs-grid .ui-g .ui-datagrid-column .rc-club .rc-club-info .rc-email-addresses span {
-    color: var(--link-color) !important;
+    color: var(--card-text-color) !important;
 }
 
-body.wcprop-2 .reciprocal-clubs-portlet section.portlet .rc-container .rc-clubs .rc-clubs-grid .ui-g .ui-datagrid-column .rc-club .rc-club-info .rc-club-address {max-width: 100% !important;align-items: center;display: flex;justify-content: flex-start !important;margin: 0;margin-left: 0rem !important;line-height: var(--wc-base-lineHeight);}
+body.wcprop-2 .reciprocal-clubs-portlet section.portlet .rc-container .rc-clubs .rc-clubs-grid .ui-g .ui-datagrid-column .rc-club .rc-club-info .rc-club-address {
+    max-width: 100% !important;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start !important;
+    margin: 0;
+    margin-left: 0rem !important;
+    line-height: var(--wc-base-lineHeight);
+}
 
 
 
@@ -46,8 +63,9 @@ body.wcprop-2 .reciprocal-clubs-portlet section.portlet .rc-container .rc-clubs 
     max-width: 100% !important;
 }
 
-body.wcprop-2 .reciprocal-clubs-portlet section.portlet .rc-container .rc-clubs .rc-clubs-grid .ui-g .ui-datagrid-column .rc-club .rc-club-info .rc-email-addresses::before {
-    color: #fff;
+body.wcprop-2 .reciprocal-clubs-portlet section.portlet .rc-container .rc-clubs .rc-clubs-grid .ui-g .ui-datagrid-column .rc-club .rc-club-info .rc-email-addresses::before,
+body.wcprop-2 .reciprocal-clubs-portlet section.portlet .rc-container .rc-clubs .rc-clubs-grid .ui-g .ui-datagrid-column .rc-club .rc-club-info .ui-grid-col-2 a.rc-delete-club-btn::before{
+    color: var(--card-text-color);
 }
 
 body.wcprop-2 .reciprocal-clubs-portlet section.portlet .rc-container .rc-clubs .rc-clubs-grid .ui-g .ui-datagrid-column .rc-club .rc-club-info .ui-grid-col-2:not([class*=rc-]) {
@@ -92,8 +110,17 @@ body.wcprop-2 .reciprocal-clubs-portlet section.portlet .rc-container .rc-clubs 
     background: transparent;
 }
 body.wcprop-2 .reciprocal-clubs-portlet section.portlet .rc-container .rc-clubs .rc-clubs-grid .ui-g .ui-datagrid-column .rc-club .rc-club-ratings .second-row-second.rc-club-amenities .rc-club-amenity label {
-    color: var(--wc-body-bg);
+    color: var(--card-text-color);
     font-weight: normal !important;
+}
+body.wcprop-2 .reciprocal-clubs-portlet section.portlet .rc-container .rc-clubs .rc-clubs-grid .ui-g .ui-datagrid-column .rc-club .rc-club-ratings .second-row-first a{
+    background: var(--card-btn-bg);
+    border-color: var(--card-btn-bg) !important;
+    border-color: var(--card-btn-color) !important;
+    
+}
+body.wcprop-2 .reciprocal-clubs-portlet section.portlet .rc-container .rc-clubs .rc-clubs-grid .ui-g .ui-datagrid-column .rc-club .rc-club-ratings .second-row-second.rc-club-amenities .rc-club-amenity .rc-club-rating .ui-rating-star a{
+    color: var(--star-outline);
 }
 @media (max-width:768px){
     body.wcprop-2 .reciprocal-clubs-portlet section.portlet .rc-container .ui-datagrid .ui-datagrid-content .ui-g {
