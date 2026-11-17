@@ -14,9 +14,11 @@
 
     body.tableTopBody.body-bg .seatItemsSideBar .imageDiv {height: max-content;}
 
-    body.tableTopBody.body-bg .seatItemsSideBar .imageDiv .memberDetails .memberImgThumbnail {
+    body.tableTopBody.body-bg .seatItemsSideBar .imageDiv .memberDetails .memberImgThumbnail,
+    body.tableTopBody.body-bg .seatItemsSideBar .imageDiv .memberDetails .memberImgThumbnail img {
         height: 40px;
         width: 40px;
+        object-fit: cover;
     }
 
     body.tableTopBody.body-bg .tableTopPageContainer .seatItemsSideBar .seatItemsContainer .itemsDetails .itemsList {height: 100% !important;}
